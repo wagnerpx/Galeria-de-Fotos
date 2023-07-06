@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-image: url(imagem/fundo-01.jpg);
+    padding: 2px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img {
+    width: 95%;
+    
+}
+
+ul {
+    columns: 3;
+}
+
+h1 {
+    color: black;
+    padding: 40px;
+}
