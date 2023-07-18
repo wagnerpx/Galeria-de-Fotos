@@ -6,29 +6,38 @@
 }
 
 body {
-    font-family: Bagel fat One;
-    background-image: url(imagem/fundo-02.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 0px;
-    font-size: 1.2em;
-    
+    height: 1200px;
+    padding-top: 150px;
+   
+ 
+    background: blue url('imagem/fundo.webp') center no-repeat fixed;
+    position: relative;
+}
+
+header {
+    font-size: 24px;
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    padding: 8px;
+    top: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
 
 img {
-    width: 93%;
+    width: 95%;
+    border-radius: 50%;
     padding: 5px;
 }
 
 ul {
     columns: 3;
-}
-
-h1 {
-    background-color: black;
-    color: white;
-    padding: 40px;
+    list-style: none;
 }
 
 footer {
